@@ -9,7 +9,7 @@ on:
 env:
   PROJECT_ID: peak-axiom-426310-b1
   REGION: northamerica-northeast1
-  GAR_LOCATION: northamerica-northeast1-docker.pkg.dev/peak-axiom-426310-b1/docker/
+  GAR_LOCATION: northamerica-northeast1-docker.pkg.dev/peak-axiom-426310-b1/docker
 
 jobs:
   build-push-artifact:
