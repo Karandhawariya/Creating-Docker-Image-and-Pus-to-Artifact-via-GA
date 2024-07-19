@@ -9,10 +9,7 @@ on:
 env:
   PROJECT_ID: peak-axiom-426310-b1
   REGION: northamerica-northeast1
-  IMAGE_NAME: my-app-image
-  #IMAGE_TAG: latest
-  GAR_LOCATION: northamerica-northeast1-docker.pkg.dev/peak-axiom-426310-b1/docker/${{ env.IMAGE_NAME }}
-
+  GAR_LOCATION: northamerica-northeast1-docker.pkg.dev/peak-axiom-426310-b1/docker/my-app-image
 
 jobs:
   build-push-artifact:
